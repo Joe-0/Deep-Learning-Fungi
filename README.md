@@ -1,15 +1,15 @@
 # Microscope Slides Fungi Classification using ResNet Models
 
-This repository contains a Google Colaboratory notebook for classifying microscope slides of various fungi using pre-trained ResNet models, including ResNet-18, ResNet-34, and ResNet-101. The notebook is structured with separate sections for model definitions, device diagnostics, training and validation loops, and a test loop.
+This repository contains a Google Colaboratory notebook for classifying microscope slides of various fungi using pre-trained ResNet models, including ResNet 18, ResNet 34, and ResNet 101. The notebook is structured with separate sections for model definitions, device diagnostics, training and validation loops, and a test loop.
 
 ## Dataset Source
 The dataset used in this project was obtained from [HERE](https://www.kaggle.com/datasets/camilovu/lemm-raw). It consists of microscope images of different fungi species, which will be used to train, validate, and test the classification models.
 
 ## Models
 Three ResNet models are utilized in this project:
-- **ResNet-18**: A lightweight version of ResNet with 18 layers.
-- **ResNet-34**: A deeper version of ResNet with 34 layers.
-- **ResNet-101**: A much deeper version of ResNet with 101 layers.
+- **ResNet 18**: A lightweight version of ResNet with 18 layers.
+- **ResNet 34**: A deeper version of ResNet with 34 layers.
+- **ResNet 101**: A much deeper version of ResNet with 101 layers.
 
 Each model is defined in a separate section of the notebook, allowing for easy comparison of their performance in classifying the microscope slides.
 
